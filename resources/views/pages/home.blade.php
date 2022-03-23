@@ -1,6 +1,7 @@
-@extends('app')
+@extends('layouts/app')
 
-@section('title', 'Hello City')
+
+
 
 @section('content')
         <img src="{{asset('images/benin.png')}}" alt="benin flag" class="mt-12 rounded shadow-md h-32">
