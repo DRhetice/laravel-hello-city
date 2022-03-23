@@ -4,9 +4,16 @@
 
 @section('content')
     <body >
-    <img src="/images/coco.jpg" alt="Guy2buzbar">
-        <p> Built with by &hearts; Rhetice learning !</p>
-        <p><a href="{{ route('home')}}">Revenir a la page d'accueil</a></p> 
-  
+    <img src="{{asset('images/benin2.png')}}" alt="flag" class="my-12 rounded-full shadow-md h-32">
+        <h2 class="mb-2 text-gray-700">
+            Built with by <span class="text-pink-500"> &hearts; </span> Rhetice learning !
+        </h2>
+        
+        <p class="mt-5">
+            <a href="{{ route('home')}}" class="text-indigo-500 hover:text-indigo-600 underline">
+                Revenir a la page d'accueil
+            </a>
+        </p>
+
 
 @endsection
